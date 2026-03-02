@@ -1,0 +1,18 @@
+# Autonomous Reinforcement Learning Trading Bot
+
+## Overview
+A self-evolving AI trading system that employs reinforcement learning to develop and refine trading strategies autonomously. Integrates generative models to create synthetic market data for testing new hypotheses without real-world risk.
+
+## Architecture
+1. **Reinforcement Learning Framework**: Proximal Policy Optimization (PPO) agent for continuous action spaces
+2. **Generative Adversarial Networks**: Conditional GAN for synthetic market data generation
+3. **Risk Management**: Dynamic Value-at-Risk (VaR) calculation with position sizing
+4. **State Management**: Firebase Firestore for real-time logging and model state persistence
+
+## Prerequisites
+- Python 3.9+
+- Firebase project with Firestore enabled
+- CCXT-supported exchange API keys
+- Telegram Bot Token (for alerts)
+
+## Installation
