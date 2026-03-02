@@ -1,0 +1,2 @@
+## Security Note
+Never commit API keys or Firebase credentials. All sensitive data must be stored in environment variables.
